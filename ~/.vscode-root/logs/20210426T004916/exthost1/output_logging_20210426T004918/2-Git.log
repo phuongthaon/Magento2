@@ -1,0 +1,66 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/code/NPTMagento/ShippingMethod/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/NPTMagento/ShippingMethod/registration.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/NPTMagento/SimpleShipping/etc/adminhtml/system.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/NPTMagento/SimpleShipping/etc/adminhtml/system.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/NPTMagento/ShippingMethod/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/NPTMagento/ShippingMethod/registration.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/magento2module_weatherApi_test/.gitignore
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/magento2module_weatherApi_test/.gitignore
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/magento2module_weatherApi_test/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/magento2module_weatherApi_test/composer.json
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/magento2module_weatherApi_test/README.md
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/magento2module_weatherApi_test/README.md
+> git show --textconv :src/app/code/Mateus/Novo/magento2module_weatherApi_test/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/magento2module_weatherApi_test/registration.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/NPTMagento/ShippingMethod/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/NPTMagento/ShippingMethod/registration.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git show --textconv :src/CHANGELOG.md
+> git ls-files --stage -- /home/bi/magentoo/src/CHANGELOG.md
+> git cat-file -s 919f3f020088b77e09c6e6504cd40ef0e857fbc0
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/pub/errors/local.xml.sample
+> git ls-files --stage -- /home/bi/magentoo/src/pub/errors/local.xml.sample
+> git cat-file -s c5c35559bd6d077807bfbde485d65485425f1029
+> git show --textconv :src/pub/errors/local.xml
+> git ls-files --stage -- /home/bi/magentoo/src/pub/errors/local.xml
+> git check-ignore -v -z --stdin

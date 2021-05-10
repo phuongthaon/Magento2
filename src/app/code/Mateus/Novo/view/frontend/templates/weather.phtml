@@ -1,0 +1,111 @@
+<?php
+/** @var \Mateus\Novo\Block\WeatherBlock $block */
+
+use Symfony\Component\Console\Helper\Dumper;
+
+?>
+
+
+<?php
+    $result = $block->getWeatherInformation();
+    $main = $result->weather[0]['main'];
+    $description = $result->weather[0]['description'];
+    $temp = $result->main['temp'];
+    $temp_min = $result->main['temp_min'];
+    $temp_max = $result->main['temp_max'];
+    $umid = $result->main['humidity'];
+
+?>
+
+<table>
+    <thead>
+        <tr>
+            <th>Currency Code</th>
+            <th>Currency Name</th>
+            <th>Buy</th>
+            <th>Transfer</th>
+            <th>Sell</th>
+        </tr>
+    </thead>
+
+    <tbody>
+<?php
+    $curl = curl_init();
+    curl_setopt_array($curl, [
+        CURLOPT_URL => "https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx?b=68",
+        CURLOPT_RETURNTRANSFER => true
+    ]);
+    $resp = curl_exec($curl);
+
+    $xml = simplexml_load_string($resp);
+    $exrates = $xml->xpath("/ExrateList/Exrate");
+    
+    foreach($exrates as $exrate) {
+        echo "
+        <tr>
+            <td>{$exrate["CurrencyCode"]}</td>
+            <td>{$exrate["CurrencyName"]}</td>
+            <td>{$exrate["Buy"]}</td>
+            <td>{$exrate["Transfer"]}</td>
+            <td>{$exrate["Sell"]}</td>
+        </tr>";
+    }
+
+    curl_close($curl);
+?>
+    </tbody>
+</table>
+
+<?php
+    $curl1 = curl_init();
+    curl_setopt_array($curl1, [
+        CURLOPT_URL => "https://vnexpress.net/rss/kinh-doanh.rss",
+        CURLOPT_RETURNTRANSFER => true
+    ]);
+    $resp1 = curl_exec($curl1);
+
+    $xml2 = simplexml_load_string($resp1);
+    
+    $title = $xml2->xpath("/rss/channel/title");
+    echo $title;
+    // $description = $xml->xpath("/rss/channel/description");
+    // echo $description;
+    // $items = $xml2->xpath("/rss");
+    // $xml1 = new SimpleXMLIterator($items);
+    // for( $xml1->rewind(); $xml1->valid(); $xml1->next() ) {
+    //     foreach($xml1->getChildren() as $name => $data) {
+    //     echo "The $name is '$data'";
+    //     echo "<br>";
+    //     }
+    // }
+    // var_dump($items);
+    
+    //     // $title2 = $item->xpath("/item/title");
+    //     // echo $title2;
+    //     foreach($items as $item) {
+    //         $item["title"];
+    //         // var_dump($item) .PHP_EOL;
+    //     }
+
+    curl_close($curl1);
+?>
+
+<h1 id="label_try"><?php echo $block->getLabel(); ?> </h1>
+
+<button id="weather_button">Show Weather</button>
+<div id="show_weather"></div>
+<script type="text/javascript">
+
+    require(["jquery"],function($) {
+        $(document).ready(function() {
+            $('#weather_button').click(function(){
+                var info = '<?php echo "The weather in HaNOi is $main, probably with $description." . '<br>' .
+                    "The temperatutur now is $temp Kelvin, with minimun for today of $temp_min Kelvin and maximun $temp_max Kelvin." . '<br>' .
+                    "The humidity is $umid%"; ?>';
+
+                $('#show_weather').html(info);
+            });
+        });
+    });
+</script>
+

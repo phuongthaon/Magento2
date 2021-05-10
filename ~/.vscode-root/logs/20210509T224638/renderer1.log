@@ -1,0 +1,5 @@
+[2021-05-09 22:46:43.342] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-05-09 22:46:43.346] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-05-09 23:03:36.506] [renderer1] [error] Cannot read property 'map' of undefined: TypeError: Cannot read property 'map' of undefined
+	at asCompletionResult (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:166212)
+	at async M.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:170847)
