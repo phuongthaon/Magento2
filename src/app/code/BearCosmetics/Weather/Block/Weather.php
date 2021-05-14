@@ -3,7 +3,7 @@
 namespace BearCosmetics\Weather\Block;
 
 class Weather extends \Magento\Framework\View\Element\Template {
-    const FEED_URL = "https://vnexpress.net/rss/kinh-doanh.rss";
+    const FEED_URL = "api.openweathermap.org/data/2.5/weather?q=HaNoi&appid=d3b83ec5eeb668e52d0d436a7b7f0d3d";
     const API_KEY = "3cc0b9dcca5952a335d95e822d5abdb7";
 
     

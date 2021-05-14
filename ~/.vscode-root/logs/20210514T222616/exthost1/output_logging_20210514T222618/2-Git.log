@@ -1,0 +1,46 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/db.env
+> git ls-files --stage -- /home/bi/magentoo/env/db.env
+> git cat-file -s 50c9663bd41b8bf21fe944565b39fb3e2308253d
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/design/a
+> git ls-files --stage -- /home/bi/magentoo/src/app/design/a
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :env/db.env
+> git ls-files --stage -- /home/bi/magentoo/env/db.env
+> git cat-file -s 50c9663bd41b8bf21fe944565b39fb3e2308253d
+> git show --textconv :src/app/design/a
+> git ls-files --stage -- /home/bi/magentoo/src/app/design/a
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:~/.vscode-root/logs/20210514T222616/output_1_20210514T222617/tasks.log
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/logs/20210514T222616/output_1_20210514T222617/tasks.log
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv HEAD:~/.vscode-root/GPUCache/index
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/GPUCache/index
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/GPUCache/index
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/GPUCache/index
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04

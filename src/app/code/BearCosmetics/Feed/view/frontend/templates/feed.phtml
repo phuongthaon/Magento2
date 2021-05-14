@@ -1,5 +1,6 @@
 <?php /** @var BearCosmetics\Feed\Block\Feed $block */ ?>
 <div class="d-flex">
+var_dump($block);
     <?php foreach($block->fetchFeed() as $post): ?>
         <div class="post">
             <h2 class="post-title"><?php echo $post['title'] ?></h2>
