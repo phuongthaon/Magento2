@@ -1,0 +1,117 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "21c1518e1c8c87439dd326a484967b57",
+    "packages": [
+        {
+            "name": "ecomteck/module-core",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ecomteck/module-core.git",
+                "reference": "ecb67ca9274fc83dfb842fda75ccfe6517580623"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ecomteck/module-core/zipball/ecb67ca9274fc83dfb842fda75ccfe6517580623",
+                "reference": "ecb67ca9274fc83dfb842fda75ccfe6517580623",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Ecomteck\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Ecomteck",
+                    "email": "ecomteck@gmail.com",
+                    "homepage": "https://ecomteck.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Ecomteck Core for Magento 2",
+            "support": {
+                "issues": "https://github.com/ecomteck/module-core/issues",
+                "source": "https://github.com/ecomteck/module-core/tree/1.0.2"
+            },
+            "time": "2019-12-11T02:42:02+00:00"
+        },
+        {
+            "name": "ecomteck/module-onepay-payment-gateway",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ecomteck/module-onepay-payment-gateway.git",
+                "reference": "6ab13e0519b4fa824a8f4066c0f89be82cfcdc36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ecomteck/module-onepay-payment-gateway/zipball/6ab13e0519b4fa824a8f4066c0f89be82cfcdc36",
+                "reference": "6ab13e0519b4fa824a8f4066c0f89be82cfcdc36",
+                "shasum": ""
+            },
+            "require": {
+                "ecomteck/module-core": "1.0.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Ecomteck\\OnePay\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ecomteck",
+                    "email": "ecomteck@gmail.com",
+                    "homepage": "https://ecomteck.com",
+                    "role": "Magento 2 Extension Provider"
+                }
+            ],
+            "description": "Magento 2 OnePay Payment Gateway",
+            "keywords": [
+                "Magento 2 Extension Free",
+                "Magento 2 OnePay Payment Gateway",
+                "OnePay Payment Gateway",
+                "OnePay in Magento 2",
+                "magento 2",
+                "magento 2 extension",
+                "onepay",
+                "payment gateway"
+            ],
+            "support": {
+                "issues": "https://github.com/ecomteck/module-onepay-payment-gateway/issues",
+                "source": "https://github.com/ecomteck/module-onepay-payment-gateway/tree/2.1.3"
+            },
+            "time": "2020-01-16T04:45:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

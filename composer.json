@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ecomteck/module-core": "^1.0",
+        "ecomteck/module-onepay-payment-gateway": "^2.1"
+    }
+}

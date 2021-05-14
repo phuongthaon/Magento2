@@ -1,0 +1,111 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git show --textconv :src/app/code/Mateus/Novo/etc/adminhtml/di.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/etc/adminhtml/di.xml
+> git cat-file -s 0b47cb622058ead81c127a1c38b088feeae47397
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git cat-file -s 672f35614cb6853ccd666048135cd42b0824bda3
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git cat-file -s 87e1dde456ae400f4e26486272a9d571df29a12c
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_publisher.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_publisher.xml
+> git cat-file -s 0d1e3b6850a99688d578fcbc88fa743e29772a9b
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/magento2-base/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-base/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git cat-file -s 87e1dde456ae400f4e26486272a9d571df29a12c
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/magento2-functional-testing-framework/docs/configuration.md
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-functional-testing-framework/docs/configuration.md
+> git cat-file -s 4eb273824496da40b7c892410174b937b21874c0
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git cat-file -s ad6fa766a0c0df24fdfed78dfca412abea31a47e
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/module-newsletter/Test/Unit/Model/Template/FilterTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/module-newsletter/Test/Unit/Model/Template/FilterTest.php
+> git cat-file -s a455852c94f423849b84c2b89f20460b690b85a9
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv :src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git cat-file -s 672f35614cb6853ccd666048135cd42b0824bda3
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git cat-file -s 87e1dde456ae400f4e26486272a9d571df29a12c
+> git show --textconv :src/vendor/magento/module-newsletter/Test/Unit/Model/Template/FilterTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/module-newsletter/Test/Unit/Model/Template/FilterTest.php
+> git cat-file -s a455852c94f423849b84c2b89f20460b690b85a9
+> git show --textconv :src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git cat-file -s ad6fa766a0c0df24fdfed78dfca412abea31a47e
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv :src/vendor/braintree/braintree_php/lib/Braintree/Configuration.php
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/braintree/braintree_php/lib/Braintree/Configuration.php
+> git cat-file -s 5439831ba99aa0577b28942a680eed5d1f00cebc
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/api-functional/config/install-config-mysql.php.dist
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/api-functional/config/install-config-mysql.php.dist
+> git cat-file -s 04519d6c47775ebed856057d8663a1b1ee043951
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleCatalogSearch/Model/ElasticsearchVersionChecker.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleCatalogSearch/Model/ElasticsearchVersionChecker.php
+> git cat-file -s 5e006a0aa11974c5f9bb200fcaa8c29e026efb7b
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/framework/tests/unit/testsuite/Magento/Test/Annotation/ConfigFixtureTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/framework/tests/unit/testsuite/Magento/Test/Annotation/ConfigFixtureTest.php
+> git cat-file -s 23eaa03ffd1c5c98067afa8694bf8072eb4333b2
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git cat-file -s 672f35614cb6853ccd666048135cd42b0824bda3
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git cat-file -s 87e1dde456ae400f4e26486272a9d571df29a12c
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_consumer.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_consumer.xml
+> git cat-file -s 6f9cc0fa758b014d0a5a3d6c912cb0a6c5295f3f
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_publisher.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_publisher.xml
+> git cat-file -s 0d1e3b6850a99688d578fcbc88fa743e29772a9b
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_topology.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_topology.xml
+> git cat-file -s d16636b25225fd68c7c112133bbf428c7cc86ff9
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/magento2-base/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-base/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git cat-file -s 672f35614cb6853ccd666048135cd42b0824bda3
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50

@@ -1,0 +1,8 @@
+[Info  - 11:02:15 PM] Initialising intelephense 1.7.1
+[Info  - 11:02:15 PM] Reading state from /home/bi/magentoo/~/.vscode-root/User/workspaceStorage/5746f16faec9d8ff6800324f341d9cb5/bmewburn.vscode-intelephense-client/415b67a.
+[Info  - 11:02:18 PM] Initialised in 3420 ms
+[Info  - 11:02:20 PM] Indexing started.
+[Info  - 11:02:21 PM] Indexing ended. 87 files indexed in 0s.
+[Info  - 11:02:21 PM] Writing state to /home/bi/magentoo/~/.vscode-root/User/workspaceStorage/5746f16faec9d8ff6800324f341d9cb5/bmewburn.vscode-intelephense-client/415b67a.
+[Info  - 11:02:24 PM] Wrote state in 3.7s.
+[Warn  - 11:16:46 PM] textDocument/didOpen ignored. file:///home/bi/magentoo/src/vendor/magento/magento2-base/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php matches excluded file glob.

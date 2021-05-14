@@ -1,0 +1,146 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git cat-file -s 9e96b81b342baad00fb2904c41dcb97a56080ad3
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/testsuite/Magento/Persistent/Model/Checkout/GuestPaymentInformationManagementPluginTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/testsuite/Magento/Persistent/Model/Checkout/GuestPaymentInformationManagementPluginTest.php
+> git cat-file -s 2eccca1630f6f7d098aa1ad7068c21c911a3ea26
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git cat-file -s 9e96b81b342baad00fb2904c41dcb97a56080ad3
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/view/frontend/layout/default.xml
+> git show --textconv :src/app/code/Mateus/Novo/Block/WeatherBlock.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Block/WeatherBlock.php
+> git cat-file -s 67f225cd1fa585cc29e52baf815c0697c22bf2c6
+> git show --textconv :src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git cat-file -s 9e96b81b342baad00fb2904c41dcb97a56080ad3
+> git show --textconv :src/app/code/NPTMagento/SimpleShipping/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/NPTMagento/SimpleShipping/registration.php
+> git cat-file -s 7e4c56cc394d605215e11dae7ec579cba3f4bbb2
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/Block/WeatherBlock.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Block/WeatherBlock.php
+> git cat-file -s 67f225cd1fa585cc29e52baf815c0697c22bf2c6
+> git show --textconv :src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git cat-file -s 9e96b81b342baad00fb2904c41dcb97a56080ad3
+> git show --textconv :src/app/code/Mateus/Novo/Block/WeatherBlock.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Block/WeatherBlock.php
+> git cat-file -s 67f225cd1fa585cc29e52baf815c0697c22bf2c6
+> git show --textconv :src/app/code/Mateus/Novo/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Controller/Index/Index.php
+> git cat-file -s e091bf30164bd179724916ac4576ec27939fd247
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git cat-file -s e86184b6c41d059a16e5b70eb1601b77fd5250c4
+> git show --textconv :src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git cat-file -s 9e96b81b342baad00fb2904c41dcb97a56080ad3
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git cat-file -s e86184b6c41d059a16e5b70eb1601b77fd5250c4
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Boolfly/MomoWallet/Block/Info.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/Block/Info.php
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/Block/Info.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Boolfly/MomoWallet/Gateway/Validator/AbstractResponseValidator.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/Gateway/Validator/AbstractResponseValidator.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git cat-file -s e86184b6c41d059a16e5b70eb1601b77fd5250c4
+> git show --textconv :src/app/code/PHPCuong/OnePay/etc/adminhtml/menu.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/PHPCuong/OnePay/etc/adminhtml/menu.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :vendor/ecomteck/module-onepay-payment-gateway/etc/adminhtml/menu.xml
+> git ls-files --stage -- /home/bi/magentoo/vendor/ecomteck/module-onepay-payment-gateway/etc/adminhtml/menu.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/vendor/ecomteck/module-onepay-payment-gateway/etc/adminhtml/menu.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :vendor/ecomteck/module-core/view/base/requirejs-config.js
+> git ls-files --stage -- /home/bi/magentoo/vendor/ecomteck/module-core/view/base/requirejs-config.js
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Ecomteck/OnePay/etc/module.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Ecomteck/OnePay/etc/module.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :vendor/ecomteck/module-core/registration.php
+> git ls-files --stage -- /home/bi/magentoo/vendor/ecomteck/module-core/registration.php
+> git check-ignore -v -z --stdin
+> git show --textconv :vendor/ecomteck/module-core/Controller/Adminhtml/Index/Extensions.php
+> git ls-files --stage -- /home/bi/magentoo/vendor/ecomteck/module-core/Controller/Adminhtml/Index/Extensions.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Ecomteck/OnePay/README.md
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Ecomteck/OnePay/README.md
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git cat-file -s e86184b6c41d059a16e5b70eb1601b77fd5250c4
+> git show --textconv :src/app/code/Boolfly/MomoWallet/README.md
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/README.md
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git cat-file -s e86184b6c41d059a16e5b70eb1601b77fd5250c4
+> git show --textconv :src/app/code/Boolfly/MomoWallet/LICENSE.txt
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/LICENSE.txt
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git cat-file -s e86184b6c41d059a16e5b70eb1601b77fd5250c4
+> git show --textconv :src/app/code/Mateus/Novo/README.md
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/README.md
+> git cat-file -s 1c3d470c16c9551dbcc6d41f164dcf18145f2ab2
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git cat-file -s e86184b6c41d059a16e5b70eb1601b77fd5250c4
+> git show --textconv :src/app/code/Ecomteck/OnePay/etc/adminhtml/menu.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Ecomteck/OnePay/etc/adminhtml/menu.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/Model/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/Model/Weather.php
+> git cat-file -s e86184b6c41d059a16e5b70eb1601b77fd5250c4
+> git show --textconv :src/app/code/Mateus/Novo/etc/adminhtml/di.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/etc/adminhtml/di.xml
+> git cat-file -s 0b47cb622058ead81c127a1c38b088feeae47397
+> git show --textconv :src/vendor/magento/module-theme/etc/di.xml
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/module-theme/etc/di.xml
+> git cat-file -s d6fe3f8fef355e98b467717b3ef259056c32839c
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/etc/adminhtml/di.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/etc/adminhtml/di.xml
+> git cat-file -s 0b47cb622058ead81c127a1c38b088feeae47397

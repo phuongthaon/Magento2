@@ -1,0 +1,286 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv :src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git cat-file -s ad6fa766a0c0df24fdfed78dfca412abea31a47e
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/magento2-base/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_topology.xml
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-base/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_topology.xml
+> git cat-file -s d16636b25225fd68c7c112133bbf428c7cc86ff9
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/magento2-base/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_publisher.xml
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-base/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_publisher.xml
+> git cat-file -s 0d1e3b6850a99688d578fcbc88fa743e29772a9b
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/etc/adminhtml/di.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/etc/adminhtml/di.xml
+> git cat-file -s 0b47cb622058ead81c127a1c38b088feeae47397
+> git check-ignore -v -z --stdin
+> git show --textconv :src/CHANGELOG.md
+> git ls-files --stage -- /home/bi/magentoo/src/CHANGELOG.md
+> git cat-file -s 919f3f020088b77e09c6e6504cd40ef0e857fbc0
+> git show --textconv :bin/setup-grunt
+> git ls-files --stage -- /home/bi/magentoo/bin/setup-grunt
+> git cat-file -s 316f3e408ac7f0488d26fff67bf23687c4fde969
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/testsuite/Magento/Setup/Console/Command/_files/config/dump_config.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/testsuite/Magento/Setup/Console/Command/_files/config/dump_config.php
+> git cat-file -s 02a77bfc71745c6319df0a75037dacbd56238a27
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/testsuite/Magento/Setup/Model/_files/testSkeleton/composer.lock
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/testsuite/Magento/Setup/Model/_files/testSkeleton/composer.lock
+> git cat-file -s 3e6deb916590879c755340bb3eac8bc2634a5e57
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/testsuite/Magento/Theme/Model/Theme/StoreThemesResolverInterfaceTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/testsuite/Magento/Theme/Model/Theme/StoreThemesResolverInterfaceTest.php
+> git cat-file -s 2f25d99bad6d216c0f3323de2b94bf185514fe78
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/framework/Test/Unit/TranslateTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/framework/Test/Unit/TranslateTest.php
+> git cat-file -s 509df2e1c2ef238076997741212b0c9fe803c03e
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/module-theme/Test/Unit/Model/Theme/StoreDefaultThemeResolverTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/module-theme/Test/Unit/Model/Theme/StoreDefaultThemeResolverTest.php
+> git cat-file -s 939b47a42ce85d53231e6a5051627a7a1a85214d
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:src/app/code/Boolfly/MomoWallet/etc/config.xml
+> git ls-tree -l HEAD -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/etc/config.xml
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:src/app/code/Boolfly/MomoWallet/etc/di.xml
+> git ls-tree -l HEAD -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/etc/di.xml
+> git show --textconv HEAD:src/app/code/Boolfly/MomoWallet/etc/module.xml
+> git ls-tree -l HEAD -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/etc/module.xml
+> git show --textconv HEAD:src/app/code/Boolfly/MomoWallet/etc/frontend/sections.xml
+> git ls-tree -l HEAD -- /home/bi/magentoo/src/app/code/Boolfly/MomoWallet/etc/frontend/sections.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Mateus/Novo/view/frontend/templates/weather.phtml
+> git cat-file -s 9e96b81b342baad00fb2904c41dcb97a56080ad3
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git cat-file -s ad6fa766a0c0df24fdfed78dfca412abea31a47e
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/Weather/Block/Weather.php
+> git show --textconv :src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git cat-file -s ad6fa766a0c0df24fdfed78dfca412abea31a47e
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/BearCosmetic/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/BearCosmetic/Weather/Block/Weather.php
+> git show --textconv :src/app/BearCosmetics/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/BearCosmetics/Weather/Block/Weather.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/BearCosmetics/Weather/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/BearCosmetics/Weather/Controller/Index/Index.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/BearCosmetics/Weather/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/BearCosmetics/Weather/etc/frontend/routes.xml
+> git show --textconv :src/app/code/BearCosmetics/Weather/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/etc/frontend/routes.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git show --textconv :src/app/code/BearCosmetics/Weather/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/etc/frontend/routes.xml
+> git show --textconv :src/app/code/BearCosmetics/Weather/etc/module.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/etc/module.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/layout/weather_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/layout/weather_index_index.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/layout/weather_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/layout/weather_index_index.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/web/css/style.css
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/web/font/rimouski_sb-webfont.ttf
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git show --textconv :src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git show --textconv :src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/nginx.conf.sample
+> git ls-files --stage -- /home/bi/magentoo/src/nginx.conf.sample
+> git cat-file -s b2d6d29ee134f314e30ad5a5d1ed1c4faa118c73
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/docker-compose.yml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Feed/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/etc/frontend/routes.xml
+> git show --textconv :src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git show --textconv :src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git show --textconv :src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git show --textconv :src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/layout/feed_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/layout/feed_index_index.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/layout/feed_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/layout/feed_index_index.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Exrate/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/etc/frontend/routes.xml
+> git show --textconv :src/app/code/BearCosmetics/Exrate/etc/module.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/etc/module.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Exrate/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/Controller/Index/Index.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Exrate/Block/Exrate.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/Block/Exrate.php
+> git show --textconv :src/vendor/magento/magento2-base/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-base/composer.json
+> git cat-file -s feb28d4d1a7156c707a741fc263b008212c7147e
+> git show --textconv :src/vendor/magento/magento2-base/nginx.conf.sample
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-base/nginx.conf.sample
+> git cat-file -s b2d6d29ee134f314e30ad5a5d1ed1c4faa118c73
+> git show --textconv :src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git show --textconv :src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-functional-testing-framework/docs/getting-started.md
+> git cat-file -s ad6fa766a0c0df24fdfed78dfca412abea31a47e
+> git show --textconv :src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Controller/Index/Index.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :composer.json
+> git ls-files --stage -- /home/bi/magentoo/composer.json
+> git show --textconv :composer.lock
+> git ls-files --stage -- /home/bi/magentoo/composer.lock
+> git show --textconv :composer.json
+> git ls-files --stage -- /home/bi/magentoo/composer.json
+> git show --textconv :composer.lock
+> git ls-files --stage -- /home/bi/magentoo/composer.lock
+> git check-ignore -v -z --stdin
+> git show --textconv :bin/cache-clean
+> git ls-files --stage -- /home/bi/magentoo/bin/cache-clean
+> git cat-file -s 7cee1cce30a8988d4c7c25ec6d26213e1278362b
+> git show --textconv :bin/clinotty
+> git ls-files --stage -- /home/bi/magentoo/bin/clinotty
+> git cat-file -s 03f650db1ee92ca517fe5a3885b582f2006572a1
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50
+> git check-ignore -v -z --stdin
+> git show --textconv :docker-compose.dev.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.dev.yml
+> git cat-file -s 577df4773cd6cc9148ce6970f487b4c9149e9fb2
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50
+> git check-ignore -v -z --stdin
+> git show --textconv :env/db.env
+> git ls-files --stage -- /home/bi/magentoo/env/db.env
+> git cat-file -s 50c9663bd41b8bf21fe944565b39fb3e2308253d
+> git show --textconv :env/magento.env
+> git ls-files --stage -- /home/bi/magentoo/env/magento.env
+> git cat-file -s adf525efb6455cea2afeb0eed956adf13b8c0698
+> git show --textconv :env/db.env
+> git ls-files --stage -- /home/bi/magentoo/env/db.env
+> git cat-file -s 50c9663bd41b8bf21fe944565b39fb3e2308253d
+> git show --textconv :env/magento.env
+> git ls-files --stage -- /home/bi/magentoo/env/magento.env
+> git cat-file -s adf525efb6455cea2afeb0eed956adf13b8c0698
+> git show --textconv :bin/magento
+> git ls-files --stage -- /home/bi/magentoo/bin/magento
+> git cat-file -s 7e11cfa4bfe1f21908c8c157e51c3a1eed39001d
+> git show --textconv :bin/mysql
+> git ls-files --stage -- /home/bi/magentoo/bin/mysql
+> git cat-file -s 79a94c4ced5fe12f06e5b1f16c1d56b97933d2ab
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50
+> git show --textconv :env/db.env
+> git ls-files --stage -- /home/bi/magentoo/env/db.env
+> git cat-file -s 50c9663bd41b8bf21fe944565b39fb3e2308253d
+> git show --textconv :env/magento.env
+> git ls-files --stage -- /home/bi/magentoo/env/magento.env
+> git cat-file -s adf525efb6455cea2afeb0eed956adf13b8c0698
+> git check-ignore -v -z --stdin
+> git show --textconv :src/phpserver/router.php
+> git ls-files --stage -- /home/bi/magentoo/src/phpserver/router.php
+> git cat-file -s 06c23ecdfe3cd1ae598d56fee38192eb041f9cf0
+> git show --textconv :docker-compose.dev.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.dev.yml
+> git cat-file -s 577df4773cd6cc9148ce6970f487b4c9149e9fb2
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git check-ignore -v -z --stdin
+> git show --textconv :env/db.env
+> git ls-files --stage -- /home/bi/magentoo/env/db.env
+> git cat-file -s 50c9663bd41b8bf21fe944565b39fb3e2308253d
