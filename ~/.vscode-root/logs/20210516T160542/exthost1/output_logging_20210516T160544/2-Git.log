@@ -1,0 +1,75 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git show --textconv :Vagrantfile
+> git ls-files --stage -- /home/bi/magentoo/Vagrantfile
+> git check-ignore -v -z --stdin
+> git cat-file -s 1c4ee1e19e7a2cfb021b6541f7ef45a23a17c699
+> git show --textconv :src/dev/tests/api-functional/config/install-config-mysql.php.dist
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/api-functional/config/install-config-mysql.php.dist
+> git cat-file -s 04519d6c47775ebed856057d8663a1b1ee043951
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/api-functional/config/config-global.php.dist
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/api-functional/config/config-global.php.dist
+> git cat-file -s cd5cfab35fba2b0b9212a789d8ef58882fb7e497
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/.htaccess.sample
+> git ls-files --stage -- /home/bi/magentoo/src/.htaccess.sample
+> git cat-file -s a756413c2b54756e8c8015204f2d65798b4df58d
+> git show --textconv :src/auth.json.sample
+> git ls-files --stage -- /home/bi/magentoo/src/auth.json.sample
+> git cat-file -s be1c70cfe1e185b8f4b916e50ab23494ef06703b
+> git show --textconv :src/CHANGELOG.md
+> git ls-files --stage -- /home/bi/magentoo/src/CHANGELOG.md
+> git cat-file -s 919f3f020088b77e09c6e6504cd40ef0e857fbc0
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleCatalogSearch/Model/ElasticsearchVersionChecker.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleCatalogSearch/Model/ElasticsearchVersionChecker.php
+> git cat-file -s 5e006a0aa11974c5f9bb200fcaa8c29e026efb7b
+> git show --textconv :src/dev/tests/integration/etc/install-config-mysql.php.dist
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/etc/install-config-mysql.php.dist
+> git cat-file -s 1d4b3d1951e32b88f5e6a3f451f4717aa7b0e67e
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/framework/Magento/TestFramework/Request.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/framework/Magento/TestFramework/Request.php
+> git cat-file -s b6afc6e4c4ae31d58ab511924596fc3abbd9bfa7
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/framework/Magento/TestFramework/Bootstrap/Environment.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/framework/Magento/TestFramework/Bootstrap/Environment.php
+> git cat-file -s 28edd9d64cd6daf4320f5036b8efa6333cc1bf91
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/framework/tests/unit/testsuite/Magento/Test/Annotation/ConfigFixtureTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/framework/tests/unit/testsuite/Magento/Test/Annotation/ConfigFixtureTest.php
+> git cat-file -s 23eaa03ffd1c5c98067afa8694bf8072eb4333b2
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/testsuite/Magento/Catalog/Controller/ProductTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/testsuite/Magento/Catalog/Controller/ProductTest.php
+> git cat-file -s a02a2b7aeef92442636df5d6439703c4f31dd387
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/testsuite/Magento/Catalog/Controller/Adminhtml/Product/Gallery/UploadTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/testsuite/Magento/Catalog/Controller/Adminhtml/Product/Gallery/UploadTest.php
+> git cat-file -s 283a3834eab59142e8cda760f54543795e921e9a
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/magento2-base/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/magento2-base/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git cat-file -s 672f35614cb6853ccd666048135cd42b0824bda3
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git cat-file -s 672f35614cb6853ccd666048135cd42b0824bda3
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04

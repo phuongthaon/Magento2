@@ -1,6 +1,0 @@
-[2021-05-10 20:01:29.570] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
-[2021-05-10 20:01:29.573] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
-[2021-05-10 22:21:41.933] [renderer1] [error] file:///home/bi/magentoo/src/app/code/Boolfly/MomoWallet/registration.php does not exist and can not be deleted: Error: file:///home/bi/magentoo/src/app/code/Boolfly/MomoWallet/registration.php does not exist and can not be deleted
-    at r.perform (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:69004)
-    at async s._reverse (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:70199)
-    at async s.undo (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:70075)

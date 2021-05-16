@@ -1,0 +1,123 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/etc/env.php
+> git check-ignore -v -z --stdin
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv :src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/api-functional/testsuite/Magento/WebapiAsync/Model/OrderRepositoryInterfaceTest.php
+> git cat-file -s 672f35614cb6853ccd666048135cd42b0824bda3
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/communication.xml
+> git cat-file -s 87e1dde456ae400f4e26486272a9d571df29a12c
+> git check-ignore -v -z --stdin
+> git show --textconv :src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_publisher.xml
+> git ls-files --stage -- /home/bi/magentoo/src/dev/tests/integration/_files/Magento/TestModuleSynchronousAmqp/etc/queue_publisher.xml
+> git cat-file -s 0d1e3b6850a99688d578fcbc88fa743e29772a9b
+> git check-ignore -v -z --stdin
+> git show --textconv :src/vendor/magento/module-newsletter/Test/Unit/Model/Template/FilterTest.php
+> git ls-files --stage -- /home/bi/magentoo/src/vendor/magento/module-newsletter/Test/Unit/Model/Template/FilterTest.php
+> git cat-file -s a455852c94f423849b84c2b89f20460b690b85a9
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/nginx.conf.sample
+> git ls-files --stage -- /home/bi/magentoo/src/nginx.conf.sample
+> git cat-file -s b2d6d29ee134f314e30ad5a5d1ed1c4faa118c73
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/bi/magentoo/docker-compose.yml
+> git cat-file -s 8ffc0e77c9c1f3cb9016b57d0ed79207719e4d50
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv :src/app/code/TNClock/News/Block/News.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/News.php
+> git show --textconv :src/app/code/TNClock/News/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Controller/Index/Index.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/Controller/News/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Controller/News/Index.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/Controller/News/News.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Controller/News/News.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/Controller/News/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Controller/News/Index.php
+> git show --textconv :src/app/code/TNClock/News/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Controller/Index/Index.php
+> git show --textconv :src/app/code/TNClock/News/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/Link.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Link.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/Link.php
+> git show --textconv :src/app/code/TNClock/Finance/Block/Finance.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Finance.php
+> git show --textconv :src/app/code/TNClock/Finance/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Link.php
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git show --textconv :src/app/code/TNClock/Finance/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Link.php
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git show --textconv :src/app/code/TNClock/Finance/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/registration.php
+> git show --textconv :src/app/code/TNClock/Finance/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/composer.json
+> git show --textconv :src/app/code/TNClock/News/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/registration.php
+> git show --textconv :src/app/code/TNClock/News/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/composer.json
+> git show --textconv :src/app/code/TNClock/Weather/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/composer.json
+> git show --textconv :src/app/code/TNClock/News/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/composer.json
+> git show --textconv :src/app/code/TNClock/News/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/registration.php
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/routes.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Controller/Index/Index.php
+> git show --textconv :src/app/code/TNClock/Finance/Block/Finance.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Finance.php
+> git show --textconv :src/app/code/TNClock/Finance/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Link.php
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/default.xml

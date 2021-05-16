@@ -24,3 +24,10 @@
 [2021-05-14 22:27:39.320] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
 [2021-05-14 22:27:39.333] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
 [2021-05-14 22:27:39.333] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension
+[2021-05-15 00:13:51.017] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-05-15 00:13:51.027] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:93115
+[2021-05-15 00:16:25.880] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-05-15 00:16:26.927] [exthost] [info] exiting with code 0

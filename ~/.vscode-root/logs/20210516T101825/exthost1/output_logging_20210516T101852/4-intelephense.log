@@ -1,0 +1,13 @@
+[Info  - 10:18:52 AM] Initialising intelephense 1.7.1
+[Info  - 10:18:52 AM] Reading state from /home/bi/magentoo/~/.vscode-root/User/workspaceStorage/5746f16faec9d8ff6800324f341d9cb5/bmewburn.vscode-intelephense-client/415b67a.
+[Info  - 10:18:59 AM] Initialised in 6252 ms
+[Info  - 10:19:04 AM] Indexing started.
+[Info  - 10:19:04 AM] Indexing ended. 6 files indexed in 0s.
+[Info  - 10:19:04 AM] Writing state to /home/bi/magentoo/~/.vscode-root/User/workspaceStorage/5746f16faec9d8ff6800324f341d9cb5/bmewburn.vscode-intelephense-client/415b67a.
+[Info  - 10:19:10 AM] Wrote state in 6.0s.
+[Warn  - 11:01:55 AM] Error: ENOENT: no such file or directory, open '/home/bi/magentoo/src/app/code/BearCosmetics/Exrate/Controller/Index/Index.php'
+[Warn  - 11:01:55 AM] Error: ENOENT: no such file or directory, open '/home/bi/magentoo/src/app/code/BearCosmetics/Exrate/Controller/Index/Index.php'
+[Warn  - 11:33:47 AM] Error: ENOENT: no such file or directory, open '/home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php'
+[Warn  - 11:33:47 AM] Error: ENOENT: no such file or directory, open '/home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php'
+[Warn  - 11:36:49 AM] Error: ENOENT: no such file or directory, open '/home/bi/magentoo/src/app/code/BearCosmetics/Feed/Controller/Index/Index.php'
+[Warn  - 11:36:49 AM] Error: ENOENT: no such file or directory, open '/home/bi/magentoo/src/app/code/BearCosmetics/Feed/Controller/Index/Index.php'

@@ -1,0 +1,200 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/layout/default.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git cat-file -s 2a76722d58abc73aa89e88b0417437e74123bf79
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Exrate/Block/Exrate.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/Block/Exrate.php
+> git cat-file -s cd6271557120f55729a0ba49e03b58a35fbca1d3
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git cat-file -s 2a76722d58abc73aa89e88b0417437e74123bf79
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git cat-file -s 99087679366d4c30001b19acf66044e2dd78db5b
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git cat-file -s 2a76722d58abc73aa89e88b0417437e74123bf79
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/web/css/style.css
+> git cat-file -s 005d88d0771fae9f316b80a59272d478ea60afd1
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git cat-file -s 99087679366d4c30001b19acf66044e2dd78db5b
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/web/css/style.css
+> git cat-file -s 005d88d0771fae9f316b80a59272d478ea60afd1
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git cat-file -s 99087679366d4c30001b19acf66044e2dd78db5b
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/web/css/style.css
+> git cat-file -s 005d88d0771fae9f316b80a59272d478ea60afd1
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git cat-file -s 99087679366d4c30001b19acf66044e2dd78db5b
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git cat-file -s 2a76722d58abc73aa89e88b0417437e74123bf79
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git cat-file -s 99087679366d4c30001b19acf66044e2dd78db5b
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/templates/exrate.phtml
+> git cat-file -s 2a76722d58abc73aa89e88b0417437e74123bf79
+> git show --textconv :src/app/code/BearCosmetics/Exrate/Block/Exrate.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/Block/Exrate.php
+> git cat-file -s cd6271557120f55729a0ba49e03b58a35fbca1d3
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/layout/exrate_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/layout/exrate_index_index.xml
+> git cat-file -s bbb37bbc435f1362ee25497e945177df09442688
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Exrate/Block/Exrate.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/Block/Exrate.php
+> git cat-file -s cd6271557120f55729a0ba49e03b58a35fbca1d3
+> git show --textconv :src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Exrate/view/frontend/web/css/style.css
+> git cat-file -s 99087679366d4c30001b19acf66044e2dd78db5b
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Exrate/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Exrate/view/frontend/web/css/style.css
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/web/css/style.css
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/Block/Exrate.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Exrate.php
+> git show --textconv :src/app/code/TNClock/Finance/Block/Finance.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Finance.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/templates/exrate.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/templates/exrate.phtml
+> git show --textconv :src/app/code/TNClock/Finance/Block/Finance.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Finance.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Controller/Index/Index.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/routes.xml
+> git show --textconv :src/app/code/TNClock/Finance/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Controller/Index/Index.php
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/routes.xml
+> git show --textconv :src/app/code/TNClock/Finance/etc/module.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/module.xml
+> git show --textconv :src/app/code/TNClock/Finance/Block/Finance.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Finance.php
+> git show --textconv :src/app/code/TNClock/Finance/etc/module.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/module.xml
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/layout/exrate_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/layout/exrate_index_index.xml
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/layout/finance_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/layout/finance_index_index.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/templates/exrate.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/templates/exrate.phtml
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/templates/finance.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/templates/finance.phtml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/web/css/style.css
+> git show --textconv :src/app/code/TNClock/Finance/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/composer.json
+> git show --textconv :src/app/code/TNClock/Finance/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/registration.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/Block/Link.php
+> git show --textconv :src/app/code/TNClock/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/Block/Weather.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/Controller/Index/Index.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/etc/frontend/routes.xml
+> git show --textconv :src/app/code/TNClock/Weather/etc/module.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/etc/module.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/layout/default.xml
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/composer.json
+> git show --textconv :src/app/code/TNClock/Weather/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/registration.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/Block/Feed.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/Feed.php
+> git show --textconv :src/app/code/TNClock/News/Block/News.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/News.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/Link.php
+> git show --textconv :src/app/code/TNClock/News/Block/News.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/News.php
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Controller/Index/Index.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/etc/frontend/routes.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/etc/frontend/routes.xml
+> git show --textconv :src/app/code/TNClock/News/etc/module.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/etc/module.xml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/feed_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/feed_index_index.xml
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/news_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/news_index_index.xml
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/feed.phtml
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/registration.php
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/news_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/news_index_index.xml
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml

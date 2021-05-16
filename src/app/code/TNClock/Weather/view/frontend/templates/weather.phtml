@@ -1,0 +1,65 @@
+
+<?php
+ 
+    $url = "http://api.openweathermap.org/data/2.5/weather?q=HaNoi&appid=d3b83ec5eeb668e52d0d436a7b7f0d3d";
+
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $response = json_decode(curl_exec($ch), true);
+
+    $windspeed = $response['wind']['speed'];
+    $humidity = $response['main']['humidity'];
+    $city = $response['name']; 
+    $temp = $response['main']['temp'];
+    $feels_like = $response['main']['feels_like'];
+    $timezone = $response['timezone'];
+    $m=$response['weather'];
+    $main=$m[0]['main'];
+    $description=$m[0]['description'];
+    $longitude = $response['coord']['lon'];
+    $latitude = $response['coord']['lat'];
+
+    curl_close($ch);
+    ?> 
+    <h1 class='weather-title'>Bản tin thời tiết</h1>
+    <div class="wrapper">
+   
+  <div class="widget-container">
+    <div class="top-left">
+      <h1 class="city" id="city">Weather Widget</h1>
+      <h2 id="day"><?php echo $city ?></h2>
+      <h3 id="date">GTM+<?php echo $timezone/3600 ?></h3>
+      <h3 id="time"><?php echo $description ?></h3>
+      <p class="geo"></p>
+    </div>
+    <div class="top-right">
+      <h1 id="weather-status"><?php echo $main ?></h1>
+      <img class="weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+    </div>
+    <div class="horizontal-half-divider"></div>
+    <div class="bottom-left">
+      <h1 id="temperature"><?php echo $temp - 273 ?></h1>
+      <h2 id="celsius">&degC</h2>
+    </div>
+    <div class="vertical-half-divider"></div>
+    <div class="bottom-right">
+      <div class="other-details-key">
+        <p>Wind Speed</p>
+        <p>Humidity</p>
+        <p>Feels like</p>
+        <p>Longitude</p>
+        <p>Latitude</p>
+      </div>
+      <div class="other-details-values">
+        <p class="windspeed"><?php echo $windspeed ?> m/s</p>
+        <p class="humidity"><?php echo $humidity ?> %</p>
+        <p class="pressure"><?php echo $feels_like - 273 ?> celsius</p>
+        <p class="sunrise-time"><?php echo $longitude ?> </p>
+        <p class="sunset-time"><?php echo $latitude?></p>
+      </div>
+    </div>
+  </div>
+  
+</div>

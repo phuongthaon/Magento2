@@ -44,3 +44,154 @@ Open repository: /home/bi/magentoo
 > git show --textconv :src/app/etc/env.php
 > git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
 > git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git status -z -u
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv :src/app/etc/env.php
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv :src/app/etc/env.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git show --textconv :src/app/etc/env.php
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/etc/env.php
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:~/.vscode-root/GPUCache/data_1
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/GPUCache/data_1
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/GPUCache/data_1
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/GPUCache/data_1
+> git show --textconv HEAD:~/.vscode-root/logs/20210514T222616/exthost1/output_logging_20210514T222618/2-Git.log
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/logs/20210514T222616/exthost1/output_logging_20210514T222618/2-Git.log
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:~/.vscode-root/User/workspaceStorage/5746f16faec9d8ff6800324f341d9cb5/state.vscdb
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/User/workspaceStorage/5746f16faec9d8ff6800324f341d9cb5/state.vscdb
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/User/workspaceStorage/5746f16faec9d8ff6800324f341d9cb5/state.vscdb
+> git ls-tree -l HEAD -- /home/bi/magentoo/~/.vscode-root/User/workspaceStorage/5746f16faec9d8ff6800324f341d9cb5/state.vscdb
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/etc/NonComposerComponentRegistration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/NonComposerComponentRegistration.php
+> git cat-file -s 831f1aa27382ebdc871a82b795a36075dedc08c2
+> git show --textconv :src/app/etc/env.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/etc/env.php
+> git cat-file -s 52432ae93942640acc7af2113e59212c0110fa04
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 2963f537534114e23dcca8f2757543e5754fa38a
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git cat-file -s c2dc0f1dfdb4f47160c6940706a648840a6a3ae4
+> git show --textconv :src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git cat-file -s 6503fd1a7d5872cfc15ba51845dd2a1e4abef37c
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git cat-file -s 16710a313b3a9d198dc80e0b020f88608888b249
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git cat-file -s 6503fd1a7d5872cfc15ba51845dd2a1e4abef37c
+> git show --textconv :src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Controller/Index/Index.php
+> git cat-file -s c2dc0f1dfdb4f47160c6940706a648840a6a3ae4
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 2963f537534114e23dcca8f2757543e5754fa38a
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 2963f537534114e23dcca8f2757543e5754fa38a
+> git show --textconv :src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git cat-file -s 6503fd1a7d5872cfc15ba51845dd2a1e4abef37c
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git cat-file -s 6503fd1a7d5872cfc15ba51845dd2a1e4abef37c
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 2963f537534114e23dcca8f2757543e5754fa38a
+> git show --textconv :src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/Block/Weather.php
+> git cat-file -s 6503fd1a7d5872cfc15ba51845dd2a1e4abef37c
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 2963f537534114e23dcca8f2757543e5754fa38a
+> git show --textconv :src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git cat-file -s 16710a313b3a9d198dc80e0b020f88608888b249
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git cat-file -s 16710a313b3a9d198dc80e0b020f88608888b249
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 2963f537534114e23dcca8f2757543e5754fa38a
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 2963f537534114e23dcca8f2757543e5754fa38a
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git cat-file -s 16710a313b3a9d198dc80e0b020f88608888b249
+> git show --textconv :src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 2963f537534114e23dcca8f2757543e5754fa38a
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git cat-file -s 16710a313b3a9d198dc80e0b020f88608888b249
+> git show --textconv :src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/view/frontend/templates/feed.phtml
+> git cat-file -s d8b094a7bd0708a5875c36edc265694e26133b6b
+> git show --textconv :src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/BearCosmetics/Feed/Block/Feed.php
+> git cat-file -s 16710a313b3a9d198dc80e0b020f88608888b249

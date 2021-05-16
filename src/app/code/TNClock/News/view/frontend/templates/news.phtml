@@ -1,0 +1,37 @@
+<?php
+
+$curl = curl_init();
+
+$xml_string = file_get_contents("https://vnexpress.net/rss/kinh-doanh.rss?fbclid=IwAR3PPCjOUWrrHQKNCI7DQrU_sVhd9zqFXJPoPvt9a7Mjb3gSDO_cvBkkVO0");
+$xml = simplexml_load_string($xml_string, 'SimpleXMLElement', LIBXML_NOCDATA);
+$json = json_encode($xml);
+$array = json_decode($json, true);
+$exrates = $array["channel"]["item"];
+
+
+curl_close($curl);
+
+?>
+ <?php foreach($exrates as $exrate){ ?>
+<div class="card-new">
+  <div class="card-right">
+  <div class="card-title">
+  <?php echo $exrate["title"] ?>
+</div>
+<div class="card-date">
+<?php echo $exrate["pubDate"] ?>
+</div>
+    <div class="card-description">
+    <?php echo $exrate["description"] ?>
+</div>
+     <div class="card-read">
+    
+        <a href='<?php echo $exrate["link"] ?>'>Đọc thêm</a> 
+  
+</div>
+</div>
+</div>
+
+
+<?php } ?>
+

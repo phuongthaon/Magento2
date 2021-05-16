@@ -1,0 +1,38 @@
+<table class="container">
+  <thead>
+    <tr>
+      <th><h1>Currency Code</h1></th>
+      <th><h1>Currency Name</h1></th>
+      <th><h1>Buy</h1></th>
+      <th><h1>Transfer</h1></th>
+      <th><h1>Sell</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+<?php
+    $curl = curl_init();
+    curl_setopt_array($curl, [
+        CURLOPT_URL => "https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx?b=68",
+        CURLOPT_RETURNTRANSFER => true
+    ]);
+    $resp = curl_exec($curl);
+
+    $xml = simplexml_load_string($resp);
+    $exrates = $xml->xpath("/ExrateList/Exrate");
+  
+    foreach($exrates as $exrate) {
+        echo "
+        <tr>
+            <td>{$exrate["CurrencyCode"]}</td>
+            <td>{$exrate["CurrencyName"]}</td>
+            <td>{$exrate["Buy"]}</td>
+            <td>{$exrate["Transfer"]}</td>
+            <td>{$exrate["Sell"]}</td>
+        </tr>";
+    }
+
+    curl_close($curl);
+?>
+    </tbody>
+</table>
+
