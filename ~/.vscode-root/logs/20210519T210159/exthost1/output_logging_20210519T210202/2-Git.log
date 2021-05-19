@@ -1,0 +1,144 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bi/magentoo
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git cat-file -s e31a0245ca2a58150b9cd306f70493df1665f268
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/Block/News.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/News.php
+> git cat-file -s 58e8601572dd24d3d62905d3d43512f0f4ece364
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/templates/weather.phtml
+> git cat-file -s 379bea25de89487baa808e3dc5e40b3dbbd79c9e
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/composer.json
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/composer.json
+> git cat-file -s e12b914e904aee5edb8390770c897c6419260f78
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/web/css/style.css
+> git cat-file -s 1e92c7c61b00c30a8bf002b802f6a0a042656b96
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git show --textconv :src/app/code/TNClock/News/registration.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/registration.php
+> git cat-file -s f1cebf2a2521b158912b994ea2a9ddd07c8b7012
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/templates/finance.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/templates/finance.phtml
+> git cat-file -s 56ac9c5243e77a0e62128d5e013c906a924a4932
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Finance/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/view/frontend/web/css/style.css
+> git cat-file -s 149fe33ea92f4389400835c46cc11bcf5ba13c37
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git show --textconv :src/app/code/TNClock/News/Block/News.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Block/News.php
+> git cat-file -s 58e8601572dd24d3d62905d3d43512f0f4ece364
+> git show --textconv :src/app/code/TNClock/News/Controller/Index/Index.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/Controller/Index/Index.php
+> git cat-file -s 2a10b687e9e391eff666ccd32a5ed9d6cbe14d27
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git cat-file -s cb8ea50fd19bae82a022432dd30c688525d7b1c4
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/templates/news.phtml
+> git show --textconv :src/app/code/TNClock/Weather/Block/Weather.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/Block/Weather.php
+> git cat-file -s 2f19ac5171effe0fc7c5fd53e1dd0d75e3bafe9a
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/layout/weather_index_index.xml
+> git cat-file -s 6a7c3a2871c3165b8f30ef42e86959dc12b93d7b
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/news_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/news_index_index.xml
+> git cat-file -s 1b1081524135d73b925227b78183e0baae27dab3
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/news_index_index.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/news_index_index.xml
+> git cat-file -s 1b1081524135d73b925227b78183e0baae27dab3
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git show --textconv :src/app/code/TNClock/Weather/Block/Link.php
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/Block/Link.php
+> git cat-file -s c7e4200b23fec5a3d40ecabd7788e73974d8f686
+> git show --textconv :src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/web/css/style.css
+> git cat-file -s 3cac6cc52b84964c831639670a143f838e198361
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git cat-file -s fc3366671bafba626f720044d26c6bd6a2cec09c
+> git show --textconv :src/app/code/TNClock/Weather/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Weather/view/frontend/layout/default.xml
+> git cat-file -s 830f2fdde68f38cd8d84c31444ae998e5d30e77c
+> git show --textconv :src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/News/view/frontend/layout/default.xml
+> git cat-file -s fc3366671bafba626f720044d26c6bd6a2cec09c

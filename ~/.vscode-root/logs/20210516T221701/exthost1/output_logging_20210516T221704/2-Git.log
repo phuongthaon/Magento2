@@ -121,3 +121,12 @@ Open repository: /home/bi/magentoo
 > git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/Block/Link.php
 > git show --textconv :src/app/code/TNClock/Finance/etc/frontend/default.xml
 > git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git status -z -u
+> git ls-files --stage -- /home/bi/magentoo/src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git cat-file -s e31a0245ca2a58150b9cd306f70493df1665f268
+> git show --textconv :src/app/code/TNClock/Finance/etc/frontend/default.xml
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

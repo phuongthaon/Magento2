@@ -1,4 +1,29 @@
 <?php
+ 
+    $url = "http://api.openweathermap.org/data/2.5/weather?q=HaNoi&appid=d3b83ec5eeb668e52d0d436a7b7f0d3d";
+
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $response = json_decode(curl_exec($ch), true);
+
+    $windspeed = $response['wind']['speed'];
+    $humidity = $response['main']['humidity'];
+    $city = $response['name']; 
+    $temp = $response['main']['temp'];
+    $feels_like = $response['main']['feels_like'];
+    $timezone = $response['timezone'];
+    $m=$response['weather'];
+    $main=$m[0]['main'];
+    $description=$m[0]['description'];
+    $longitude = $response['coord']['lon'];
+    $latitude = $response['coord']['lat'];
+
+    curl_close($ch);
+?> 
+
+<?php
 
 $curl = curl_init();
 
@@ -12,7 +37,90 @@ $exrates = $array["channel"]["item"];
 curl_close($curl);
 
 ?>
- <?php foreach($exrates as $exrate){ ?>
+
+    <div class="wrapper">
+   
+   <div class="col-left">
+<div class="widget-container">
+    <div class="top-left">
+      <h1 class="city" id="city">Weather Widget</h1>
+      <h2 id="date"><?php echo $city ?></h2>
+      <h2 id="date">GTM+<?php echo $timezone/3600 ?></h2>
+      <h2 id="time"><?php echo $description ?></h2>
+      <p class="geo"></p>
+    </div>
+    <div class="top-right">
+      <h1 id="weather-status"><?php echo $main ?></h1>
+      <img class="weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+    </div>
+    <div class="horizontal-half-divider"></div>
+    <div class="bottom-left">
+      <h1 id="temperature"><?php echo $temp - 273 ?></h1>
+      <h2 id="celsius">&degC</h2>
+    </div>
+    <div class="vertical-half-divider"></div>
+    <div class="bottom-right">
+      <div class="other-details-key">
+        <p>Wind Speed</p>
+        <p>Humidity</p>
+        <p>Feels like</p>
+        <p>Longitude</p>
+        <p>Latitude</p>
+      </div>
+      <div class="other-details-values">
+        <p class="windspeed"><?php echo $windspeed ?> m/s</p>
+        <p class="humidity"><?php echo $humidity ?> %</p>
+        <p class="pressure"><?php echo $feels_like - 273 ?> celsius</p>
+        <p class="sunrise-time"><?php echo $longitude ?> </p>
+        <p class="sunset-time"><?php echo $latitude?></p>
+      </div>
+    </div>
+  </div>
+<div class="table-wrapper">
+<table class="container">
+  <thead>
+    <tr>
+      <th><h1>Currency Code</h1></th>
+      <th><h1>Currency Name</h1></th>
+      <th><h1>Buy</h1></th>
+      <th><h1>Transfer</h1></th>
+      <th><h1>Sell</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+<?php
+    $curl2 = curl_init();
+    curl_setopt_array($curl2, [
+        CURLOPT_URL => "https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx?b=68",
+        CURLOPT_RETURNTRANSFER => true
+    ]);
+    $resp2 = curl_exec($curl2);
+
+    $xml2 = simplexml_load_string($resp2);
+    $fins = $xml2->xpath("/ExrateList/Exrate");
+  
+    foreach($fins as $fin) {
+        echo "
+        <tr>
+            <td>{$fin["CurrencyCode"]}</td>
+            <td>{$fin["CurrencyName"]}</td>
+            <td>{$fin["Buy"]}</td>
+            <td>{$fin["Transfer"]}</td>
+            <td>{$fin["Sell"]}</td>
+        </tr>";
+    }
+
+    curl_close($curl2);
+?>
+    </tbody>
+</table>
+
+</div>
+   </div>
+  
+
+<div class="card-wrapper">
+<?php foreach($exrates as $exrate){ ?>
 <div class="card-new">
   <div class="card-right">
   <div class="card-title">
@@ -31,7 +139,11 @@ curl_close($curl);
 </div>
 </div>
 </div>
-
-
 <?php } ?>
+</div>
+
+
+</div>
+
+ 
 

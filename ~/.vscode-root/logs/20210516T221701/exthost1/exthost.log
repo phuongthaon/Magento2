@@ -38,3 +38,6 @@
 [2021-05-16 23:27:23.109] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
 [2021-05-16 23:27:23.141] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
 [2021-05-16 23:27:23.141] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-05-16 23:35:19.464] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 539
+[2021-05-16 23:35:19.717] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-05-16 23:35:20.751] [exthost] [info] exiting with code 0
